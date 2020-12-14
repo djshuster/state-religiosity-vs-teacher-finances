@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# What Is It?
+<img src="Images/screenshot.jpg" alt="example of graph output" width="40%" height="40%" align="right"/>
+This program scrapes the average math teacher salary, by state, from ziprecruiter.com; it then divides the salary by the cost of living index in the respective state, taken from worldpopulationreview.com; finally, it plots that dividend vs. religiosity by state.
 
-You can use the [editor on GitHub](https://github.com/djshuster/state-religiosity-vs-teacher-finances/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# How Do I Use It?
+Simply run grapher.py to graph the data. Note that grapher.py will automatically use salary_scraper.py to retrieve data about the average math teacher salaries by state.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Contact Me
+Did you encounter a bug in our application? Do you want to request a new feature? Have a funny meme for us?
+Email me at djs.shuster@gmail.com.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/djshuster/state-religiosity-vs-teacher-finances/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Sources
+CoLData.csv is taken from https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state.
+Data for math teacher salaries by state is scraped from https://www.ziprecruiter.com/Salaries/What-Is-the-Average-Math-Teacher-Salary-by-State.
+religionByState.csv is taken from https://www.statista.com/statistics/221454/share-of-religious-americans-by-state/.
