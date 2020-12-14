@@ -1,5 +1,5 @@
 # What Is It?
-<img src="Images/screenshot.jpg" alt="example of graph output" width="55%" height="550%" align="right"/>
+<img src="Images/screenshot.jpg" alt="example of graph output" width="55%" height="550%" align="right" style="float:right; padding-left:20px"/>
 This program scrapes the average math teacher salary, by state, from ziprecruiter.com; it then divides the salary by the cost of living index in the respective state, taken from worldpopulationreview.com; finally, it plots that dividend against religiosity by state.
 
 # How Do I Use It?
