@@ -1,9 +1,14 @@
+Last updated 14 Dec., 2020
+Created by David Shuster
+
+***Overview***
+This program scrapes the average math teacher salary, by state, from ziprecruiter.com;
+it then divides the salary by the cost of living index in the respective state, taken from worldpopulationreview.com;
+finally, it plots that dividend vs. religiosity by state.
+
 ***Use***
 Simply run grapher.py to graph the data.
 Note that grapher.py will automatically use salary_scraper.py to retrieve data about the average math teacher salaries by state.
-
-***Overview***
-This program scrapes salary data from ziprecruiter.com and then plots it with respect to the cost of living index from worldpopulationreview.com.
 
 ***Sources***
 CoLData.csv is taken from https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state.
