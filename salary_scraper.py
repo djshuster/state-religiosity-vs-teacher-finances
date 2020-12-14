@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 
-
 def makeCSV():
     siteName = 'https://www.ziprecruiter.com/Salaries/What-Is-the-Average-Math-Teacher-Salary-by-State'
     source = requests.get(siteName).text

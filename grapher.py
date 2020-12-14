@@ -1,9 +1,7 @@
 # Last updated 8 July, 2020
 # Created by David Shuster
 
-'''
-This program parses and graphs some simple data on Religiosity (%) vs. GDP per capita (USD) for 148 Countries.
-'''
+# This program parses and graphs some simple data on religiosity, cost of living, and math teacher salary in the US.
 
 import csv
 import matplotlib.pyplot as plt
@@ -45,6 +43,7 @@ def main():
         x = state_to_info[name]['religiosity']
         y = state_to_info[name]['avgSalary']/state_to_info[name]['costIndex']
         plt.scatter(x,y, color = 'tab:blue')
+
     # see a few interesting states labeled on the scatterplot
     for name in ['Vermont', 'Maine', 'Hawaii', 'California', 'Massachusetts', 'New Hampshire', 'Mississippi', 'Wyoming']:
         x = state_to_info[name]['religiosity']
@@ -57,14 +56,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-'''
-SOURCES
-Data is taken from https://www.kaggle.com/dimanjung/religions-vs-gdp-per-capita/data. Accessed 8 July, 2020.
-
-
-ACKNOWLEDGEMENTS
-Thanks to https://www.kaggle.com/dimanjung/religions-vs-gdp-per-capita/data for the data!
-Thanks to https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/ for the helpful instructions.
-'''
