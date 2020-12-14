@@ -10,8 +10,8 @@ Did you encounter a bug in our application? Do you want to request a new feature
 Email me at djs.shuster@gmail.com.
 
 # Sources
-CoLData.csv is taken from worldpopulationreview.com(https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state).
+CoLData.csv is taken from [worldpopulationreview.com](https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state).
 
-Data for math teacher salaries by state is scraped from ziprecruiter.com(https://www.ziprecruiter.com/Salaries/What-Is-the-Average-Math-Teacher-Salary-by-State).
+Data for math teacher salaries by state is scraped from [ziprecruiter.com](https://www.ziprecruiter.com/Salaries/What-Is-the-Average-Math-Teacher-Salary-by-State).
 
-religionByState.csv is taken from statista.com (https://www.statista.com/statistics/221454/share-of-religious-americans-by-state/).
+religionByState.csv is taken from [statista.com] (https://www.statista.com/statistics/221454/share-of-religious-americans-by-state/).
